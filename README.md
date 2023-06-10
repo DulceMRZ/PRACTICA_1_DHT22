@@ -5,13 +5,12 @@
 En esta práctica podemos programar una ESP32 con el sensor DHT22.
 
 ## Contenido 
-- 1. Introducción 
+- Introducción 
     -     1.1 Descripción 
     -     1.1 Especificación 
-- 2. Material Requerido
-- 3. Procedimiento a realizar 
-  
-
+- Objetivo
+- Material Requerido
+- Procedimiento a realizar 
 
 
 ## 1. Introducción
@@ -23,8 +22,12 @@ La ```Esp32``` la utilizamos en un entorno de adquision de datos, lo cual en est
  ### 1.2 Especificación 
  Es importante considerar que esta practica se estara realiando en un simulador llamado [WOKWI](https://https://wokwi.com/).
 
+## 2. Objetivo 
 
-## 2. Material Requerido
+Poder diseñar un diagrama con sensor DHT22 de temperatura y humedad que se utilice para medir la temperatura y la humedad relativa del ambiente en el que se encuentra, mediante la utilización de una ESP32.
+
+
+## 3. Material Requerido
 
 Tomar en cuenta el material necesario para realizar esta práctica:
 
@@ -68,13 +71,31 @@ void loop() {
 }
 
 ```
+
+#### Nota: Es importante considerar que el "delay(1000); ", se puede programar al tiempo que usted desee estar monitoreando el sensor. 
+
+
+## Paso 2 
+
 2. Instalar la libreria de **DHT sensor library for ESPx** como se muestra en la siguente imagen.
 
-![](https://github.com/DulceMRZ/EJEMPLO_DIPLOMADO/blob/main/tokikiki.PNG?raw=true)
+![](https://github.com/DulceMRZ/PRACTICA_1_DHT22/blob/main/Practica_1_DTH11%20-%20Wokwi%20ESP32,%20STM32,%20Arduino%20Simulator%20-%20Google%20Chrome%2009_06_2023%2008_50_46%20p.%20m..png?raw=true)
 
-3. Hacer la conexion de **DHT11** con la **ESP32** como se muestra en la siguente imagen.
+## Paso 3
 
-![](https://github.com/DiegoJm10/PracticaDHT/blob/main/New%20ESP32%20Project%20-%20Wokwi%20Simulator%20-%20Google%20Chrome%2008_06_2023%2011_10_20%20p.%20m.%20(2).png?raw=true)
+3. Hacer la conexion de **DHT22** con la **ESP32** como se muestra en la siguentes imagenes:
+
+3.1 Es importante considerar que para **ESP32** se maneja un ```Voltaje de trabajo 3.3 VDC```. 
+
+a) Observar conexión de pin del Sensor al **pin 1** de **ESP32**. 
+
+![](https://github.com/DulceMRZ/PRACTICA_1_DHT22/blob/main/Practica_1_DTH22%20diagrama%20(1).PNG?raw=true)
+
+b) 
+![](https://github.com/DulceMRZ/PRACTICA_1_DHT22/blob/main/Practica_1_DTH22%20diagrama%20(2)..PNG?raw=true)
+
+c)
+![](https://github.com/DulceMRZ/PRACTICA_1_DHT22/blob/main/Practica_1_DTH22%20diagrama..png?raw=true)
 
 ### Instrucciónes de operación
 
@@ -98,6 +119,6 @@ Cuando haya funcionado, verás los valores dentro del monitor serial como se mue
 
 # Créditos
 
-Desarrollado por Ing. Diego Jasso Miranda
+Desarrollado por Ing. Dulce M Rodriguez Zarate 
 
 - [GitHub](https://github.com/DiegoJm10)
