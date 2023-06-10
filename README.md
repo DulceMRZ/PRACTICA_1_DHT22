@@ -6,8 +6,6 @@ En esta práctica podemos programar una ESP32 con el sensor DHT22.
 
 ## Contenido 
 - Introducción 
-    -     1.1 Descripción 
-    -     1.1 Especificación 
 - Objetivo
 - Material Requerido
 - Procedimiento a realizar 
