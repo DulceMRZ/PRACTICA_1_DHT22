@@ -92,9 +92,13 @@ a) Observar conexión de pin del Sensor al **pin 1** de **ESP32**.
 ![](https://github.com/DulceMRZ/PRACTICA_1_DHT22/blob/main/Practica_1_DTH22%20diagrama%20(1).PNG?raw=true)
 
 b) 
+
+
 ![](https://github.com/DulceMRZ/PRACTICA_1_DHT22/blob/main/Practica_1_DTH22%20diagrama%20(2)..PNG?raw=true)
 
 c)
+
+
 ![](https://github.com/DulceMRZ/PRACTICA_1_DHT22/blob/main/Practica_1_DTH22%20diagrama..png?raw=true)
 
 ### Instrucciónes de operación
