@@ -10,8 +10,9 @@ En esta práctica podemos programar una ESP32 con el sensor DHT22.
 - Objetivo
 - Material Requerido
 - Procedimiento 
+- Instrucciones de operación 
 - Resultados 
-- Evidencia 
+
 
 
 ## 1. Introducción
@@ -38,7 +39,7 @@ Tomar en cuenta el material necesario para realizar esta práctica:
 
 
 
-## 3. Procedimiento a realizar 
+## 4. Procedimiento a realizar 
 
  - Requisitos previos
 
@@ -92,38 +93,31 @@ a) Observar conexión de pin del Sensor al **pin 1** de **ESP32**.
 
 ![](https://github.com/DulceMRZ/PRACTICA_1_DHT22/blob/main/Practica_1_DTH22%20diagrama%20(1).PNG?raw=true)
 
-b) 
+b) Conexión de pin 2 (GND) 
 
 
 ![](https://github.com/DulceMRZ/PRACTICA_1_DHT22/blob/main/Practica_1_DTH22%20diagrama%20(2)..PNG?raw=true)
 
-c)
+c) Conexión pin 3 (pin 15) 
 
 
 ![](https://github.com/DulceMRZ/PRACTICA_1_DHT22/blob/main/Practica_1_DTH22%20diagrama..png?raw=true)
 
-### Instrucciónes de operación
+### 5. Instrucciónes de operación
 
 1. Iniciar simulador.
 2. Visualizar los datos en el monitor serial.
 3. Colocar la temperatura y humedad dando *doble click* al sensor **DHT11** 
 
-## Resultados
+## 6. Resultados
 
 Cuando haya funcionado, verás los valores dentro del monitor serial como se muestra en la siguente imagen.
 
-![](https://github.com/DiegoJm10/PracticaDHT/blob/main/New%20ESP32%20Project%20-%20Wokwi%20Simulator%20-%20Google%20Chrome%2008_06_2023%2011_10_20%20p.%20m..png?raw=true)
-
-
-
-
-## Evidencias
-
-[Video de Youtube](https://https://wokwi.com/)
+![](https://github.com/DulceMRZ/PRACTICA_1_DHT22/blob/main/New%20ESP32%20Project%20-%20Wokwi%20Simulator%20-%20Google%20Chrome%2009_06_2023%2009_34_27%20p.%20m..png?raw=true)
 
 
 # Créditos
 
-Desarrollado por Ing. Dulce M Rodriguez Zarate 
+Desarrollado por Dulce M Rodriguez Zarate 
 
-- [GitHub](https://github.com/DiegoJm10)
+- [GitHub](https://github.com/DulceMRZ)
